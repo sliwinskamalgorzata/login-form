@@ -1,0 +1,63 @@
+
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/solid.css");
+
+html, body{
+    height:100%;
+}
+
+body{
+    
+    background: url('image/abstract.jpg') no-repeat center center fixed;
+ 
+
+    background-size: cover;
+   
+ 
+ 
+}
+
+.main-section{
+ 
+  
+   margin:0 auto;
+   margin-top:90px;
+   position:sticky;
+    
+}
+.modal-content{
+    background-color:gray;
+    opacity: .9;
+   
+    padding: 0 18px;
+    border-radius: 18px;
+    weight:550px;
+}
+
+.user-img img{
+    height:120px;
+    weight:120px;
+    
+
+}
+
+.user-img{
+    margin-top:-70px;
+    margin-bottom:30px;
+}
+.form-group{
+    margin-bottom:25px;
+}
+
+.form-group input{
+    height:50px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    padding-left: 60px;
+}
+.form-group::before{
+   /*font-family:'Font Awesome\5 Free';*/
+   content: "\f182";
+
+}
+
